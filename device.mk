@@ -917,3 +917,6 @@ include hardware/google/pixel/common/pixel-common-device.mk
 
 # enable retrofit virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)
+
+# OpenGapps Bringup
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
