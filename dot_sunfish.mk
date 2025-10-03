@@ -29,6 +29,9 @@ PRODUCT_MODEL := Pixel 4a
 PRODUCT_NAME := lineage_sunfish
 TARGET_MANUFACTURER := Google
 
+# OpenGapps
+GAPPS_VARIANT := stock
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
